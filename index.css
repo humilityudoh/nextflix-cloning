@@ -52,7 +52,8 @@ button:hover{
     display: flex;flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 40
+    0px;
 }
 h1{
     font-size: 60px;
@@ -130,8 +131,12 @@ p{
         height: 40px;
         width: 15%;
     }
-    h1{
-        font-size: 30px;
+    .hero{
+        color: #fff;
+        display: flex;flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
     }
     h3{
         font-size: 25px;
@@ -193,7 +198,7 @@ p{
 
     
 }
-@media screen and (max-width:510px){
+@media screen and (max-width:540px){
     button{
         margin-bottom: 20px;
         border: none;
@@ -205,7 +210,11 @@ p{
         height: 40px;
         width: 25%;
     }
-
+    h1{
+        font-size: 40px;
+     
+    }
+    
 
 }
 @media screen and (max-width:370px){
@@ -214,6 +223,10 @@ p{
         font-weight: 500;
 
     }
+    h1{
+        font-size: 25px;
+    }
+
     button{
         margin-bottom: 20px;
         border: none;
@@ -226,7 +239,7 @@ p{
         width: 30%;
     }
     h3{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: lighter;
         margin-left: -10px;
         margin-bottom: 1px;
